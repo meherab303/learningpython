@@ -1,0 +1,6 @@
+tupple=(1,1,4,5,6,7,8,3,2,4,5)
+print(type(tupple))
+print(tupple[0])
+print("index is",tupple.index(2))
+print("total count is",tupple.count(4))
+print(tupple[1:3])
