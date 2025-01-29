@@ -1,3 +1,4 @@
+from task2 import calculate_bonus
 def make_album(artist_name, album_title, num_songs=None):
     
     album = {
@@ -17,6 +18,7 @@ print(album1)
 print(album2)
 print(album3)
 
+#task-2
 def make_car(manufacturer, model, **kwargs):
    
     car = {
@@ -32,3 +34,5 @@ car = make_car('subaru', 'outback', color='blue', tow_package=True)
 
 
 print(car)
+
+print(calculate_bonus(100))
