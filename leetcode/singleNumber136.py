@@ -14,7 +14,15 @@ def singleNumber(nums):
     # using for loop
     for num in nums:
         if nums.count(num)==1:
-            return num       
+            return num 
+    # max appear numbers in list    
+    # c=0
+    # number=0
+    # for num in nums:
+    #     if nums.count(num)>c:
+    #         c=nums.count(num) 
+    #         number=num 
+    # return number,c        
 print(singleNumber([4,1,2,1,2,2])) 
 
 #(4 xor 1 xor 2 xor 1 xor 2==4).Here order doesnt matter.firsly (1 xor 1==0).(2 xor 2==0 ) so remaining (4 xor 0 xor 0)==4
