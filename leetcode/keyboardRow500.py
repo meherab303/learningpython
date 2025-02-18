@@ -17,3 +17,19 @@ def keyBoardRow(words):
     return new_words        
 
 print(keyBoardRow(["hello","Alaska","Dad","peace"]))
+
+# names = ['Alice', 'Bob']
+
+# ages = [25, 30]
+# print( zip(names, ages))
+# for name, age in list(zip(names, ages)):
+
+#     print(f'{name} is {age} years old.')
+
+# paired = list(zip(names, ages))
+
+# print(paired) #
+# my_foods = ['pizza', 'falafel', 'carrot cake']
+
+# friend_foods = my_foods[:]
+# print(friend_foods)
